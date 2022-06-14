@@ -1,0 +1,337 @@
+
+.mission_create {
+  height: var(--panelHeight);
+  height: 100%;
+}
+.mission_create .collections {
+  align-items: center;
+  width: 106%;
+  display: flex;
+  height: 43vh;
+}
+.mission_create .collections .collect  {
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: nowrap;
+  border: 1px solid #0AF0FF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  align-content: flex-start;
+  overflow: auto;
+  height: 95%;
+  width: 100%;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #aaa3a3; 
+  border-radius: 10px;
+  box-shadow: none;
+}
+::-webkit-scrollbar {
+  height: 5px;
+}
+.mission_create .btn_plus {
+  background-color: #68FE65;
+  border-radius: 10px;
+  width: 6%;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.mission_create .collections .collect .collection_container {
+  padding: 10px;
+  flex:0 0 auto;
+}
+.mission_create .collections .collect .collection_container .collection {
+  flex-direction: column;
+}
+.mission_create .action {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  border: 1px solid #0AF0FF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 12vh;
+  align-items: center;
+}
+
+.mission_create .action .form_group {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.mission_create .action .btn_group {
+  width: 20%;
+  display: flex;
+}
+
+.mission_create .action .form_group .item {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.mission_create .action .form_group .item .label {
+  width: 55%;
+  white-space: nowrap;
+}
+
+.mission_create .action .form_group .item .input {
+  width: 50%;
+}
+
+.mission_create .action .form_group .item .input input {
+  border-radius: 25px;
+  background-color: white;
+  border: none;
+  width: 100%;
+}
+
+.mission_create .action  .btn_create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border-radius: 25px;
+  background-color: var(--primaryBackground);
+  font-size: 30px;
+  cursor: pointer;
+  height: 9vh;
+}
+
+.mission_create .action  .btn_cancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border-radius: 25px;
+  background-color: #B10000;
+  font-size: 30px;
+  cursor: pointer;
+  color:white;
+  height: 9vh;
+}
+
+.m_form {
+  margin: 0 5%;
+}
+.m_form .header {
+  height: 16vh;
+  padding-top:5%;
+  width:100%;
+}
+.m_form .header .h_label {
+  font-size: 20px;
+  color: #000000;
+  margin-left: 15px;
+}
+.m_form .header .h_form input {
+  width: 80%;
+  border: transparent;
+  background-color: #C4C4C4;
+  height: 40px;
+  font-size: 20px;
+}
+.m_form .header .h_form {
+  display: flex;
+}
+.m_form .header .h_form .btn_fetch {
+    background: #68FE65;
+    border-radius: 9px;
+    width: 14%;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    justify-content: center;
+    color: #2D2727;
+    cursor:pointer;
+}
+.m_form .content {
+  height: 33vh;
+  margin-top: 10px;
+}
+.m_form .content textarea {
+  width: 100%;
+  border: transparent;
+  background-color: #C4C4C4;
+  height: 100%;
+  font-size: 20px;
+}
+.m_form .footer {
+  margin-top: 10px;
+}
+.m_form .footer .f_label {
+  font-size: 20px;
+  color: #000000;
+  margin-left: 15px;
+}
+.m_form .footer .f_form input {
+  width: 80%;
+  border: transparent;
+  background-color: #C4C4C4;
+  height: 40px;
+}
+.m_form .footer .f_form {
+  display: flex;
+}
+.m_form .footer .f_form .btn_can{
+  background: #FB6D6D;
+  border-radius: 9px;
+  width: 14%;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  justify-content: center;
+  color: #2D2727;
+  cursor:pointer;
+}
+.m_form .footer .f_form .btn_add {
+  background: #68FE65;
+  border-radius: 9px;
+  width: 14%;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  justify-content: center;
+  color: #2D2727;
+  cursor:pointer;
+}
+.m_form .footer .f_form input {
+  font-size: 20px;
+}
+.form {
+  height: 100%;
+  margin:auto 5%;
+  font-size:1.5vw;
+}
+.form .item {
+  height:30%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* font-size: 20px; */
+}
+.form .item .input {
+  display: flex;
+  height: 7vh;
+}
+.form .item .input input {
+  width: 90%;
+  border: transparent;
+  /* font-size: 20px; */
+}
+.form .item .input .btn_check {
+  border-radius: 10px;
+    background-color: #68FE65;
+    width: 8%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.form .item_ {
+  height:20%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.5vw;
+}
+.form .item_ .sub {
+  width: 53%;
+  display: flex;  
+}
+.form .item_ .sub .unit {
+  text-align: center;
+}
+.form .item_ .sub .unit .title {
+  margin-bottom: 2vh;
+}
+.form .item_ .sub .unit input {
+  width: 90%;
+  height: 70%;
+  border:transparent;
+}
+.form .item .sub {
+  display: flex;  
+}
+.form .item .organism {
+  text-align: center;
+  margin-right:3vw;
+}
+.form .item .organism .unit .title {
+  margin-bottom: 8%;
+}
+.form .item .organism .molecule {
+  display: flex;
+  justify-content: space-between;
+}
+.form .item .organism .molecule .atom .subtitle {
+  margin-bottom: 1vh;
+}
+.form .item .organism .molecule .atom input {
+  border:transparent;
+  height: 80%;
+  width:85%;
+}
+.form .item .sub > .form .item .sub .organism {
+  margin-left:20px;
+}
+.form .item_end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 18%;
+  /* font-size: 20px; */
+}
+.form .item_end .organism {
+  display: flex;
+  justify-content: space-between;
+}
+.form .item_end .organism_ {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-bottom: -5vh;
+}
+.form .item_end .organism .molecule input {
+  height: 80%;
+  width:80%;
+  border:transparent;
+  background-color: #C4C4C4;
+}
+.form .item_end .organism_ .btn_can {
+  background: #FB6D6D;
+  border-radius: 9px;
+  width: 47%;
+  display: flex;
+  align-items: center;
+  color: #2D2727;
+  cursor: pointer;
+  height: 8vh;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+.form .item_end .organism_ .btn_finish {
+  background: #68FE65;
+  border-radius: 9px;
+  width: 47%;
+  display: flex;
+  align-items: center;
+  color: #2D2727;
+  cursor: pointer;
+  height: 8vh;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+.form .item_end .organism .molecule label .btn_select_image {
+  background-color: #C4C4C4;
+  height: 80%;
+}

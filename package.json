@@ -1,0 +1,75 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@metaplex/js": "^4.10.1",
+    "@mui/material": "^5.0.0",
+    "@project-serum/anchor": "^0.18.2",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/wallet-adapter-base": "^0.7.1",
+    "@solana/wallet-adapter-react": "^0.13.1",
+    "@solana/wallet-adapter-react-ui": "^0.6.1",
+    "@solana/wallet-adapter-wallets": "^0.11.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.24.0",
+    "caniuse-lite": "^1.0.30001284",
+    "chart.js": "^3.7.0",
+    "classnames": "^2.3.1",
+    "ipfs-http-client": "^54.0.1",
+    "mdbreact": "^5.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.1",
+    "react-dom": "^17.0.2",
+    "react-donut-component": "^2.2.6",
+    "react-modal": "^3.14.4",
+    "react-redux": "^7.2.4",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-svg-donuts": "^2.0.1",
+    "react-toast-notifications": "^2.5.1",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.48.0",
+    "swiper": "^6.8.4",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "set PORT=3030 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-modal": "^3.13.1"
+  }
+}

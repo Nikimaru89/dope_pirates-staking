@@ -1,0 +1,110 @@
+.frontend {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.frontend .container {
+    padding: 0 10%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    margin: 0 auto;
+}
+
+.frontend .back-img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    object-position: center;
+    object-fit:fill;
+    z-index: -1;
+}
+
+.frontend .wrapper-img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    object-position: center;
+    object-fit:cover;
+    z-index: -1;
+}
+
+.frontend .header {
+    width: 100%;
+    height: 21vh;
+    text-align: center;
+}
+
+.frontend .header .skeleton{
+    width: 25%;
+    padding-top: 2%;
+    margin: 0 auto;
+}
+
+.frontend .header .skeleton img{
+    width: 100%;
+}
+
+.frontend .panel {
+    position: relative;
+    max-height: calc(100vh - 20vh - 24px);
+    min-height: calc(100vh - 20vh - 24px);
+}
+
+.frontend .main_content {
+    padding: 24px 7% 42px 11%;
+}
+
+.frontend .main_content .content {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.96);
+    box-sizing: border-box;
+    border-radius: 40px;
+    /* padding: 20px 6% 20px 6%; */
+    height: 58vh;
+}
+
+@media (max-width: 1895px) { /*1600*/
+    .frontend .main_content {
+        padding: 12px 6% 28px 12%;
+    }
+
+    .frontend .main_content .content {
+        padding: 14px 6% 20px 10%;
+    }
+}
+
+@media (max-width: 1599px) { /*1366*/
+    .frontend .main_content {
+        padding: 16px 6% 24px 13%;
+    }
+
+    .frontend .main_content .content {
+        padding: 8px 6% 16px 10%;
+    }
+}
+
+@media (max-width: 1439px) {
+    .frontend .main_content {
+        padding: 12px 6% 24px 12.5%;
+    }
+
+    .frontend .panel {
+        position: relative;
+        max-height: calc(100vh - 20vh - 16px);
+        min-height: calc(100vh - 20vh - 16px);
+    }
+}

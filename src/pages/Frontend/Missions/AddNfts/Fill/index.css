@@ -1,0 +1,47 @@
+.add_nfts {
+  display: flex;
+  flex-direction: row;
+  padding: 1vw;
+  height: var(--panelHeight);
+  border-radius: 10px;
+  border: 1px solid #0AF0FF;
+  height: 56vh;
+}
+
+.add_nfts div {
+  text-align: center;
+}
+
+.add_nfts .collections {
+  width: 100%;
+  overflow: auto;
+}
+
+.add_nfts .collections .collection_container {
+  margin-bottom: 20px;
+}
+
+.add_nfts .collections .collection_container .collection {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.add_nfts .collections .back {
+  background-color: #FE6565;
+  border-radius: 10px;
+  color: #2D2727;
+  width: 6vw;
+  height: 5vh;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  float: right;
+  font-size: 1.5vw;
+  cursor: pointer;
+  position: absolute;
+  right: 14%;
+  bottom: 10%;
+}

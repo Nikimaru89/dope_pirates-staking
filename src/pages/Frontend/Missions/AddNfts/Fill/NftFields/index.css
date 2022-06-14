@@ -1,0 +1,95 @@
+.nft_fields {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.main_field {
+    width:66%;
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-evenly; */
+    border: 1px solid #0AF0FF;
+    border-radius: 10px;
+    overflow: auto;
+    padding-top:3vh;
+    align-content: baseline;
+}
+.main_field .item {
+    text-align: center;
+    margin-bottom: 3vh;
+    margin-right: 1vw;
+    margin-right: 1vw;
+    width: 19%;
+}
+.main_field .item img {
+    width:6vw;
+}
+.act {
+    width:30%;
+    border: 1px solid #0AF0FF;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.act .confirm {
+    background-color: #0EA014;
+    border-radius: 20px;
+    width: 69%;
+    margin: auto;
+    font-size: 2vw;
+    color: white;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.act .back {
+    background-color: #B10000;
+    border-radius: 20px;
+    width: 69%;
+    margin: auto;
+    font-size: 2vw;
+    color: white;
+    cursor: pointer;
+}
+.act .sub_act {
+    height: 70%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.main_field .item .select_nft {
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    border-radius: 10px;
+    background-color: #AAAAAA;
+    width: 90%;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+}
+.main_field .item .active_select_nft {
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    border-radius: 10px;
+    background-color: #0EA014;
+    width: 90%;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+}
+.main_field .item .active_select_rent {
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    border-radius: 10px;
+    background-color: #B10000;
+    width: 90%;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+}
+.main_field .item > div {
+    margin-bottom: 1vh;
+}

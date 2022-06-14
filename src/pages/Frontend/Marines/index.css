@@ -1,0 +1,76 @@
+.frontend_claim {
+}
+
+.frontend_claim .crews .crews_panel {
+  flex-flow: row wrap;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 12px 32px;
+  align-content: flex-start;
+}
+
+.frontend_claim .crews_panel .nft{
+  position: relative;
+  flex: 0 0 25%;
+  max-width: 25%;
+
+}
+
+.frontend_claim .descript .descript_panel {
+  flex-flow: row wrap;
+  align-content: flex-start;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 12px 32px;
+}
+
+.frontend_claim .descript_panel .mix_image {
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.frontend_claim .descript_panel .mix_image img {
+  width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+@media (max-width: 1895px) { /*1200*/
+  .frontend_claim .crews .crews_panel {
+    padding: 8px 24px;
+  }
+
+  .frontend_claim .descript .descript_panel {
+    padding: 10px 6px;
+  }
+  .frontend_claim .descript_panel {
+    padding: 8px 14px;
+  }
+  .frontend_claim .descript_panel .mix_image {
+    width: 46%;
+  }
+}
+
+@media (max-width: 1599px) { /*1200*/
+  .frontend_claim .crews .crews_panel {
+    padding: 8px 24px;
+  }
+  .frontend_claim .crews_panel .nft {
+
+  }
+  .frontend_claim .crews .crews_panel {
+    padding: 6px 18px;
+  }
+
+  .frontend_claim .descript .descript_panel {
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 1439px) { /*1200*/
+
+}
+

@@ -1,0 +1,201 @@
+* {
+	font-family: 'Priate';
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: rgba(10, 240, 255, 0);
+	border-radius: 100px;
+}
+
+*::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(10, 240, 255, 1);
+	border-radius: 100px;
+}
+
+:root {
+    --fontColor: #2D2727;
+    --fontSuccess: #52E350;
+    --fontWarning: #CEAD00;
+    --fontBrown: #541111;
+    --fontPurple: #CC00FF;
+    --fontBrightGreen: #00FF38;
+		--primaryBackground: #68FE65;
+		--btnPaddingTop: 5px;
+		--btnPaddingRight: 15px;
+		--panelHeight: calc(100vh - 20vh - 220px);
+		--fontSize: 20px;
+		--fontColor: #2D2727;
+}
+
+.standard_font {
+    color: var(--fontColor);
+}
+
+.wallet_font {
+    color: rgba(5, 6, 6, 0.85);
+}
+
+.font_success {
+    color: var(--fontSuccess);
+
+	/* text-shadow:
+	0 0 2px #fff,
+	0 0 4px #fff,
+	0 0 8px #52E350,
+	0 0 12px #2bca28,
+	0 0 16px #08ed04; */
+}
+
+.font_warning {
+    color: var(--fontWarning);
+
+	/* text-shadow:
+	0 0 2px #fff,
+	0 0 4px #fff,
+	0 0 8px #CEAD00,
+	0 0 12px #927a02,
+	0 0 16px #443902; */
+}
+
+.font_brown {
+    color: var(--fontBrown);
+
+	/* text-shadow:
+	0 0 2px #fff,
+	0 0 4px #fff,
+	0 0 8px #7b1717,
+	0 0 12px #870e0e,
+	0 0 16px #bd0d0d; */
+}
+
+.font_purple {
+    color: var(--fontPurple);
+
+	/* text-shadow:
+	0 0 2px #fff,
+	0 0 4px #fff,
+	0 0 8px #CC00FF,
+	0 0 12px #af13d6,
+	0 0 16px #772a8a; */
+}
+
+.font_blue {
+    color: #130872;
+
+	/* text-shadow:
+	  0 0 2px #fff,
+	  0 0 4px #fff,
+	  0 0 8px #261b8c,
+	  0 0 12px #4639ba,
+	  0 0 16px #7669ed; */
+}
+
+.font_roboto {
+	font-family: 'Roboto';
+}
+
+.fontsize_25 {
+	font-size: 18px;
+}
+
+.fontsize_30 {
+	font-size: 22px;
+}
+
+.fontsize_35 {
+	font-size: 26px;
+}
+
+.fontsize_40 {
+	font-size: 30px;
+}
+
+.panel_left {
+	width: 68%;
+}
+
+.panel_right {
+	width: 30%;
+}
+
+.mr_20 {
+	margin-right: 20px;
+}
+
+.scroll_panel {
+	height: 45vh;
+	max-height: 45vh;
+	min-height: 45vh;
+	overflow: auto;
+	/* border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important; */
+}
+
+.font-neon {
+}
+
+@media (max-width: 1895px) { 
+	.fontsize_25 {
+		font-size: 16px;
+	}
+	
+	.fontsize_30 {
+		font-size: 18px;
+	}
+	
+	.fontsize_35 {
+		font-size: 22px;
+	}
+	
+	.fontsize_40 {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 1599px) { 
+	.fontsize_25 {
+		font-size: 14px;
+	}
+	
+	.fontsize_30 {
+		font-size: 16px;
+	}
+	
+	.fontsize_35 {
+		font-size: 18px;
+	}
+	
+	.fontsize_40 {
+		font-size: 20px;
+	}
+
+	.panel_left {
+		width: 63%;
+	}
+	
+	.panel_right {
+		width: 35%;
+	}
+}
+
+@media (max-width: 1439px) { /*1200*/
+	.fontsize_25 {
+		font-size: 14px;
+	}
+	
+	.fontsize_30 {
+		font-size: 14px;
+	}
+	
+	.fontsize_35 {
+		font-size: 16px;
+	}
+	
+	.fontsize_40 {
+		font-size: 18px;
+	}
+}

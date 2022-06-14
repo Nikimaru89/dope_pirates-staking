@@ -1,0 +1,39 @@
+.select_nft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100%; */
+}
+.select_nft .title {
+  font-size: 2vw;
+  height: 5vh;
+}
+.select_nft .subtitle {
+  font-size: 1.3vw;
+  width:150%;
+  margin-bottom: 2vh;
+  height: 5vh;
+}
+.select_nft .form {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.select_nft .form img{
+  width: 100%;
+}
+
+.select_nft .action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--primaryBackground);
+  color: var(--fontColor);
+  font-size: 1.5vw;
+  height: 20%;
+} 
+.select_nft .action a {
+  color: var(--fontColor);
+}

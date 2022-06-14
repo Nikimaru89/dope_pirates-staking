@@ -1,0 +1,40 @@
+.pirate_nft .img_box {
+    position: relative;
+    width: 100%;
+}
+
+.pirate_nft .img_box.danger {
+    border: 2px solid red;
+}
+
+.pirate_nft .img_box img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+
+.pirate_nft .mask {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 4%;
+    width: 90%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(15, 12, 12, 0.959);
+    opacity: 0.8;
+    font-size: 20px;
+    color: white;
+}
+@media (max-width: 1895px) { /*1200*/
+}
+
+@media (max-width: 1599px) { /*1200*/
+}
+
+@media (max-width: 1365px) { /*1200*/
+}
+

@@ -1,0 +1,86 @@
+.collection {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  width: 100%;
+  font-size: var(--fontSize);
+  color: var(--fontColor);
+  text-align: center;
+}
+
+
+.collection .collection_name{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  background: var(--primaryBackground);
+  border-radius: 25px;
+  padding: var(--btnPaddingTop) var(--btnPaddingRight);
+  margin-bottom: 20px;
+}
+
+.collection .form_group {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.collection .form_group .item {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.collection .form_group .item select {
+  width: 70%;
+  border-radius: 25px;
+  border-color: transparent;
+}
+.collection .form_group .item .label {
+  width: 30%;
+  
+}
+
+.collection .form_group .item .form {
+  width: 70%;
+}
+
+.collection .form_group .item .form.burn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.collection .form_group .item .form.burn div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection .form_group .item .form input#text {
+  width: 100%;
+  border-radius: 25px;
+  background-color: white;
+  border: none;
+}
+.collection .form_group .item .form input#radio {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  border: none;
+}
+.collection .form_group .item .sub_form #number {
+  font-size:18px;
+  width: 98%;
+  border-radius: 25px;
+  border-color: transparent;
+}
+.collection .btn_add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primaryBackground);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

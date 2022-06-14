@@ -1,0 +1,134 @@
+.frontend_staking {
+}
+
+.frontend_staking .crews .title {
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+
+.frontend_staking .crews .crews_panel {
+  flex-flow: row wrap;
+  align-content: flex-start;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 12px 24px;
+}
+
+.frontend_staking .crews_panel .nft{
+  position: relative;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.frontend_staking .descript {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.frontend_staking .descript .scroll_panel {
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 40px;
+  height: calc(45vh - 53px);
+}
+
+.frontend_staking .descript .descript_panel {
+  min-height: 100%;
+
+  padding: 12px 8px;
+}
+.frontend_staking .mix_confirm_panel {
+  width: 100%;
+  /* position:absolute; */
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.frontend_staking .mix_confirm_panel .mix_confirm {
+  width:100%;
+  background: #0EA014;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.frontend_staking .mix_confirm_panel .mix_confirm.disabled {
+  background-color: grey;
+}
+
+.frontend_staking .mix_confirm {
+  font-size: 42px;
+}
+
+.btn_update button {
+  width: 140px;
+}
+
+.btn_clean button {
+  width: 80px;
+}
+
+.btn_claim button {
+  width: 80px;
+}
+
+.claim_gif {
+  position: absolute;
+  left: auto;
+  top: auto;
+  z-index: 100000;
+}
+@media (max-width: 1895px) { /*1200*/
+  .frontend_staking .crews .crews_panel {
+    padding: 6px 16px;
+  }
+
+  .frontend_staking .crews_panel .nft {
+
+  }
+
+  .frontend_staking .descript .descript_panel {
+    padding: 6px 8px;
+  }
+
+  .frontend_staking .mix_confirm {
+    font-size: 32px;
+  }
+
+  .frontend_staking .descript .scroll_panel {
+    min-height: calc(100% - 12vh);
+  }
+}
+
+@media (max-width: 1599px) { /*1200*/
+
+  .frontend_staking .crews_panel .nft {
+
+  }
+
+  .frontend_staking .crews .crews_panel {
+    padding: 6px 16px;
+  }
+
+  .frontend_staking .descript .descript_panel {
+    padding: 12px 4px;
+  }
+
+  .frontend_staking .mix_confirm {
+    font-size: 32px;
+  }
+
+  .frontend_staking .descript .scroll_panel {
+    min-height: calc(100% - 13vh);
+  }
+}
+
+@media (max-width: 1439px) {
+
+}

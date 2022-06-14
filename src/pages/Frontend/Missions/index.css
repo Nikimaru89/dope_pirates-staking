@@ -1,0 +1,154 @@
+.button_group {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.button_group div {
+  margin-right: 10px;
+}
+
+.button_group .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Pirata One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--fontSize);
+  color: #2D2727;
+  padding: var(--btnPaddingTop) var(--btnPaddingRight);
+}
+.button_group a {
+  color: #2D2727;
+}
+.button_group .button.create {
+  background: #68FE65;
+}
+.button_group .button.deactive {
+  display: none;
+}
+.button_group .button.create:active {
+  background-color: #68FE65;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button_group .button.deactive_delete {
+  background: rgba(251, 14, 14, 0.6);
+}
+.button_group .button.active_delete {
+  background: rgba(251, 14, 14, 0.6);
+  opacity:0.5;
+}
+.button_group .button.none {
+  display: none;
+}
+.button_group .button.active_delete:active {
+  background-color: rgba(251, 14, 14, 0.6);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button_group .button.deactive_delete:active {
+  background-color: rgba(251, 14, 14, 0.6);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button_group .button.deactive_update {
+  background:#0AF0FF;
+}
+.button_group .button.active_update {
+  background:#0AF0FF;
+  opacity:0.5;
+}
+.button_group .button.active_update:active {
+  background-color: #0AF0FF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button_group .button.deactive_update:active {
+  background-color: #0AF0FF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.missions {
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  overflow: auto;
+  /* height: calc(100vh - 20vh - 270px); */
+  height: 40vh;
+}
+.missions .mission_container {
+  display: flex;
+  width: 24%;
+  margin-bottom: 8vh;
+  margin-right: 3vw;
+  margin-left: 2vw;
+}
+.form input {
+  font-size:18px;
+}
+.sub-content {
+  border: 1px solid #0AF0FF;
+  height: 48vh;
+  border-radius: 20px;
+}
+.btn_confirm {
+  float: right;
+  margin-right: 5%;
+  border-radius: 25px;
+  background-color: #0EA014;
+  width: 15%;
+  text-align: center;
+  height: 5vh;
+  color: white;
+  font-size: 1.6vw;
+  cursor:pointer;
+}
+.btn_deactive_confirm {
+  display: none;
+}
+.m_form .foot {
+  display: flex;
+  float: right;
+  align-items: center;
+  margin-top:10px;
+}
+.m_form .foot .btn_boost_can {
+  border-radius: 10px;
+  background-color: #FB6D6D;
+  width: 7vw;
+  height: 7vh;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.m_form .foot .btn_delete_boost {
+  border-radius: 10px;
+  background-color: #FF9900;
+  width: 7vw;
+  height: 7vh;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m_form .foot .btn_boost_update {
+  border-radius: 10px;
+  background-color: #68FE65;
+  width: 7vw;
+  height: 7vh;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,51 @@
+.action_button {
+    width: 80%;
+}
+.action_button button{
+    width: 90%;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 25px;
+    color: white;
+    padding: 6px 0;
+    line-height: 1;
+}
+
+.action_button button:hover {
+    transform: translate(1px, 1px);
+}
+
+.action_button button:disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.action_button button.danger {
+    background: #B10000;
+}
+
+.action_button button.success {
+    background: #0EA014;
+}
+
+.action_button button.disabled {
+    background: grey;
+        
+}
+
+.action_button button.rectangle {
+    border-radius: 5px;
+}
+
+@media (max-width: 1895px) { /*1200*/
+}
+
+@media (max-width: 1599px) {
+    .action_button button{
+        padding: 4px 0;
+    }
+}
+
+@media (max-width: 1365px) { /*1200*/
+}
